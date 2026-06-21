@@ -13,14 +13,12 @@ from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError, sy
 BASE_URL = "https://999.999865.xyz"
 LOGIN_URL = f"{BASE_URL}/login"
 TIMEOUT = 15000
-PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN", "ffa0f8f23ea84c138d79eb8d5603c72b").strip()
+PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN", "").strip()
 
 # Add more accounts here:
 # {"username": "your_username", "password": "your_password"}
 ACCOUNTS = [
-    {"username": "bizhan1", "password": "Zzh123456"},
-    {"username": "bizhan2", "password": "Zzh123456"},
-    {"username": "bizhan3", "password": "Zzh123456"},
+    
 ]
 
 
